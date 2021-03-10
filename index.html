@@ -24,10 +24,15 @@
     <a-assets>
       <a-asset-item id="isitlogo" src="isitlogo.glb"></a-asset-item>
     </a-assets>
+    <a-assets>
+      <a-asset-item id="isit1" src="isit1.glb"></a-asset-item>
+    </a-assets>
     <a-marker type='pattern' url='isit.patt'>
       <a-entity gltf-model="#isitlogo" scale="0.1 0.1 0.1" rotation="230 0 0"　
                 link="href: https://isit-japan.com/; title: ISIT; image: #isitlogo"
                 animation-mixer="loop:repeat"></a-entity>
+      <a-entity gltf-model="#isit1" scale="0.5 0.5 0.5" rotation="230 0 0"　
+                link="href: https://store.iketei.jp/products/list.php?category_id=660; title: ISIT; image: #isit1"></a-entity>
     </a-marker>
     <a-entity camera>
      <a-entity cursor="fuse: false; fuseTimeout: 500">
